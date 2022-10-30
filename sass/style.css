@@ -132,6 +132,7 @@ section ul li ion-icon {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  width: 10%;
 }
 section ul li a {
   transition: all 0.4s ease-in-out;
@@ -143,15 +144,8 @@ section ul li a {
   color: rgb(0, 0, 0);
   font-weight: 700;
   font-size: 1.4rem;
+  width: 90%;
 }
 section ul li:not(:first-child) {
   margin-top: 20px;
-}
-section ul li:hover {
-  background-color: rgb(177, 232, 253);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */
